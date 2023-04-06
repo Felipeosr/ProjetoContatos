@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos André\\source\\repos\\CrontroleDeContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {}
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos André\\source\\repos\\CrontroleDeContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos André\\source\\repos\\CrontroleDeContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
+        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
         "projectName": "CrontroleDeContatos",
-        "projectPath": "C:\\Users\\Carlos André\\source\\repos\\CrontroleDeContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
-        "packagesPath": "C:\\Users\\Carlos André\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos André\\source\\repos\\CrontroleDeContatos\\CrontroleDeContatos\\obj\\",
+        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
+        "packagesPath": "C:\\Users\\Acer Nitro 5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Carlos André\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer Nitro 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +44,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CrontroleDeContatos.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CrontroleDeContatos.Controllers
 {
