@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {}
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\ProjetoContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\ProjetoContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
+        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\ProjetoContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
         "projectName": "CrontroleDeContatos",
-        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
+        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\ProjetoContatos\\CrontroleDeContatos\\CrontroleDeContatos.csproj",
         "packagesPath": "C:\\Users\\Acer Nitro 5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\Felipeosr\\CrontroleDeContatos\\obj\\",
+        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\ProjetoContatos\\CrontroleDeContatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,23 +47,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,3 +1,7 @@
+using CrontroleDeContatos.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 namespace CrontroleDeContatos
 {
     public class Program
@@ -8,6 +12,10 @@ namespace CrontroleDeContatos
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<BancoContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("BancoContext"));
+            });
 
             var app = builder.Build();
 

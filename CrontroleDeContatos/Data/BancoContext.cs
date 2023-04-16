@@ -9,6 +9,6 @@ namespace CrontroleDeContatos.Data
         public BancoContext(DbContextOptions<BancoContext> options) : base(options) 
         {
         }
-        public DbSet<Contatos> Contatos { get; set; }
+        public DbSet<ContatoModel> Contatos { get; set; }
     }
 }
